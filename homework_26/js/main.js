@@ -106,8 +106,9 @@
 //     console.log(counterc = 0)
 // }
 
-// alert(counterd = countera + counterb + counterc)
+// counterd = countera + counterb + counterc
 
+// alert(`${counterd} ta musbat son bor`)
 
 
 
@@ -170,22 +171,22 @@
 
 
 
-let A = parseInt(prompt("birinchi son"));
-let B = parseInt(prompt("ikkinchi son"));
+// let A = parseInt(prompt("birinchi son"));
+// let B = parseInt(prompt("ikkinchi son"));
 
 
-if (A != B){
-    if (A > B){
-        alert(`${A} katta`)
-    }else{
-        alert(`${B} katta`)
-    }
-}else{
-    alert(0)
-}
+// if (A != B){
+//     if (A > B){
+//         alert(`${A} katta`)
+//     }else{
+//         alert(`${B} katta`)
+//     }
+// }else{
+//     alert(0)
+// }
 
-alert(`${A} birinchi son`)
-alert(`${B} ikkinchi son`)
+// alert(`${A} birinchi son`)
+// alert(`${B} ikkinchi son`)
 
 
 
@@ -212,6 +213,57 @@ alert(`${B} ikkinchi son`)
 //         alert(a)
 //     }
 // }
+
+
+
+
+
+
+// Boolen-2-3
+
+
+
+// let a = parseInt(prompt("berilgan son"))
+
+// if (a % 2 == 1){
+//     alert(`${a} toq son`)
+// }else{
+//     alert(`${a} juft son`)
+// }
+
+
+
+// boolen-4
+
+
+
+// let a = parseInt(prompt("birinchi son"))
+// let b = parseInt(prompt("ikkinchi son"))
+
+
+// if (a > 2 && b<=3){
+//     alert(`true`)
+// }else{
+//     alert(`false`)
+// }
+
+
+
+
+// Boolen-4
+
+
+// let a = parseInt(prompt("birinchi son"))
+// let b = parseInt(prompt("ikkinchi son"))
+
+
+// if (a >= 0 && b < -2 ){
+//     alert(`true`)
+// }else{
+//     alert(`false`)
+// }
+
+
 
 
 
